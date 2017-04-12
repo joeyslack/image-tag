@@ -1,0 +1,22 @@
+{
+  "name": "flareImageTags",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joseph Slack <josephdslack@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "basic-auth-connect": "^1.0.0",
+    "clarifai": "git+https://github.com/Clarifai/clarifai-javascript.git",
+    "dotenv": "^4.0.0",
+    "express": "^4.13.4",
+    "ngrok": "^2.2.1",
+    "parse": "^1.8.3",
+    "pg": "^5.0.0",
+    "request": "^2.72.0"
+  }
+}
